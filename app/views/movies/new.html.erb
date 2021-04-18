@@ -8,7 +8,7 @@
   <div>
 
     <%= label_tag :title_box, "Title" %>
-    <%= text_field_tag :query_title, @the_movie.title, { id: "title_box"} %>
+    <%= text_field_tag :query_title, @the_movie.title, id: "title_box" %>
 
   </div>
 
@@ -18,6 +18,5 @@
   </div>
 
 <%= button_tag "Create movie" %>
-</form>
 
 <% end %>
