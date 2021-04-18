@@ -12,8 +12,8 @@ class MoviesController < ApplicationController
       format.json do
         render json: @list_of_movies
       end
-
-      format.html
+      
+      format.html 
     end
   end
 
